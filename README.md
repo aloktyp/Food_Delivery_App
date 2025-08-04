@@ -41,6 +41,36 @@ git clone
 cd mern-food-delivery-app
 ```
 
+## Deployment
+
+This project is deployed on Render with the following services:
+
+### Backend Deployment
+- **Service Type:** Web Service
+- **Root Directory:** `backend`
+- **Build Command:** `npm install`
+- **Start Command:** `npm run server`
+- **Environment Variables:**
+  - `JWT_SECRET`: Your JWT secret key
+  - `STRIPE_SECRET_KEY`: Your Stripe secret key
+  - `MONGODB_URI`: Your MongoDB connection string
+
+### Frontend Deployment
+- **Service Type:** Static Site
+- **Root Directory:** `frontend`
+- **Build Command:** `npm install && npm run build`
+- **Publish Directory:** `dist`
+- **Environment Variables:**
+  - `VITE_BACKEND_URL`: `https://food-delivery-app-backend-sixo.onrender.com`
+
+### Admin Deployment
+- **Service Type:** Static Site
+- **Root Directory:** `admin`
+- **Build Command:** `npm install && npm run build`
+- **Publish Directory:** `dist`
+- **Environment Variables:**
+  - `VITE_BACKEND_URL`: `https://food-delivery-app-backend-sixo.onrender.com`
+
 ## Backend Setup
 Navigate to the backend directory:
 
@@ -106,12 +136,22 @@ npm run dev
 ```
 
 ## Usage
-Access the customer-facing app at http://localhost:5173.
-Access the admin app at http://localhost:5174.
-Register as a new user or log in with existing credentials.
-Browse the menu, add items to the cart, and place an order.
-Pay using dummy visa card
-Use the admin panel to manage orders, menu items.
+
+### Live Applications
+- **Frontend (Customer App):** [https://food-delivery-app-frontend-xo7g.onrender.com](https://food-delivery-app-frontend-xo7g.onrender.com)
+- **Admin Panel:** [https://food-delivery-app-admin-78z0.onrender.com](https://food-delivery-app-admin-78z0.onrender.com)
+- **Backend API:** [https://food-delivery-app-backend-sixo.onrender.com](https://food-delivery-app-backend-sixo.onrender.com)
+
+### Local Development
+- Frontend: http://localhost:5173
+- Admin: http://localhost:5174
+- Backend: http://localhost:4000
+
+### How to Use
+1. Register as a new user or log in with existing credentials
+2. Browse the menu, add items to the cart, and place an order
+3. Pay using dummy visa card
+4. Use the admin panel to manage orders, menu items
 
 
 ## API Documentation
