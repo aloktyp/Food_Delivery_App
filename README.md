@@ -4,6 +4,7 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Deployed Applications](#deployed-applications)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
@@ -29,6 +30,18 @@ This is a full-stack food ordering web application built using the MERN stack (M
 - **Database:** MongoDB
 - **Authentication:** JWT (JSON Web Tokens)
 - **Styling:** CSS
+
+## Deployed Applications
+
+### 🌐 Live Links
+- **[Frontend (Customer App)](https://food-delivery-app-frontend-xo7g.onrender.com)** - Main customer-facing application
+- **[Admin Panel](https://food-delivery-app-admin-78z0.onrender.com)** - Admin dashboard for managing orders and menu
+- **[Backend API](https://food-delivery-app-backend-sixo.onrender.com)** - REST API endpoints
+
+### 📱 Application Overview
+- **Frontend:** Complete food ordering experience with cart management, user authentication, and payment integration
+- **Admin:** Comprehensive dashboard for restaurant management including order tracking, menu management, and analytics
+- **Backend:** Robust API supporting user authentication, order processing, payment integration, and data management
 
 ## Installation
 ### Prerequisites
